@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <NoWarn>CS8600,CS8601,CS8602,CS8603,CS8604,CS8605,CS8618,CS8620,CS8629,CS8632,CS8669</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EStore.Core\EStore.Core.csproj" />
+  </ItemGroup>
+
+</Project>
